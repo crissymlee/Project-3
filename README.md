@@ -1,6 +1,7 @@
 # Project-3
 Project 3 - Visualize Me, Captain - 'Music'
-Requirements and data gathering live doc: 
+
+*Requirements and data gathering live doc: 
 https://docs.google.com/spreadsheets/d/1PfAhGpc2sz_kecxRL1-wu6obWk0TrBAg4RXHd6FlnI4/edit?usp=sharing
 
 ## Summary
