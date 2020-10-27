@@ -1,1 +1,834 @@
-{"tracks":{"0":{"album":{"album_type":"album","artists":[{"external_urls":{"spotify":"https:\/\/open.spotify.com\/artist\/246dkjvS1zLTtiykXe5h60"},"href":"https:\/\/api.spotify.com\/v1\/artists\/246dkjvS1zLTtiykXe5h60","id":"246dkjvS1zLTtiykXe5h60","name":"Post Malone","type":"artist","uri":"spotify:artist:246dkjvS1zLTtiykXe5h60"}],"external_urls":{"spotify":"https:\/\/open.spotify.com\/album\/4g1ZRSobMefqF6nelkgibi"},"href":"https:\/\/api.spotify.com\/v1\/albums\/4g1ZRSobMefqF6nelkgibi","id":"4g1ZRSobMefqF6nelkgibi","images":[{"height":640,"url":"https:\/\/i.scdn.co\/image\/ab67616d0000b2739478c87599550dd73bfa7e02","width":640},{"height":300,"url":"https:\/\/i.scdn.co\/image\/ab67616d00001e029478c87599550dd73bfa7e02","width":300},{"height":64,"url":"https:\/\/i.scdn.co\/image\/ab67616d000048519478c87599550dd73bfa7e02","width":64}],"name":"Hollywood's Bleeding","release_date":"2019-09-06","release_date_precision":"day","total_tracks":17,"type":"album","uri":"spotify:album:4g1ZRSobMefqF6nelkgibi"},"artists":[{"external_urls":{"spotify":"https:\/\/open.spotify.com\/artist\/246dkjvS1zLTtiykXe5h60"},"href":"https:\/\/api.spotify.com\/v1\/artists\/246dkjvS1zLTtiykXe5h60","id":"246dkjvS1zLTtiykXe5h60","name":"Post Malone","type":"artist","uri":"spotify:artist:246dkjvS1zLTtiykXe5h60"}],"disc_number":1,"duration_ms":215280,"explicit":false,"external_ids":{"isrc":"USUM71915699"},"external_urls":{"spotify":"https:\/\/open.spotify.com\/track\/21jGcNKet2qwijlDFuPiPb"},"href":"https:\/\/api.spotify.com\/v1\/tracks\/21jGcNKet2qwijlDFuPiPb","id":"21jGcNKet2qwijlDFuPiPb","is_local":false,"is_playable":true,"name":"Circles","popularity":89,"preview_url":null,"track_number":6,"type":"track","uri":"spotify:track:21jGcNKet2qwijlDFuPiPb"},"1":{"album":{"album_type":"album","artists":[{"external_urls":{"spotify":"https:\/\/open.spotify.com\/artist\/246dkjvS1zLTtiykXe5h60"},"href":"https:\/\/api.spotify.com\/v1\/artists\/246dkjvS1zLTtiykXe5h60","id":"246dkjvS1zLTtiykXe5h60","name":"Post Malone","type":"artist","uri":"spotify:artist:246dkjvS1zLTtiykXe5h60"}],"external_urls":{"spotify":"https:\/\/open.spotify.com\/album\/6trNtQUgC8cgbWcqoMYkOR"},"href":"https:\/\/api.spotify.com\/v1\/albums\/6trNtQUgC8cgbWcqoMYkOR","id":"6trNtQUgC8cgbWcqoMYkOR","images":[{"height":640,"url":"https:\/\/i.scdn.co\/image\/ab67616d0000b273b1c4b76e23414c9f20242268","width":640},{"height":300,"url":"https:\/\/i.scdn.co\/image\/ab67616d00001e02b1c4b76e23414c9f20242268","width":300},{"height":64,"url":"https:\/\/i.scdn.co\/image\/ab67616d00004851b1c4b76e23414c9f20242268","width":64}],"name":"beerbongs & bentleys","release_date":"2018-04-27","release_date_precision":"day","total_tracks":18,"type":"album","uri":"spotify:album:6trNtQUgC8cgbWcqoMYkOR"},"artists":[{"external_urls":{"spotify":"https:\/\/open.spotify.com\/artist\/246dkjvS1zLTtiykXe5h60"},"href":"https:\/\/api.spotify.com\/v1\/artists\/246dkjvS1zLTtiykXe5h60","id":"246dkjvS1zLTtiykXe5h60","name":"Post Malone","type":"artist","uri":"spotify:artist:246dkjvS1zLTtiykXe5h60"},{"external_urls":{"spotify":"https:\/\/open.spotify.com\/artist\/1URnnhqYAYcrqrcwql10ft"},"href":"https:\/\/api.spotify.com\/v1\/artists\/1URnnhqYAYcrqrcwql10ft","id":"1URnnhqYAYcrqrcwql10ft","name":"21 Savage","type":"artist","uri":"spotify:artist:1URnnhqYAYcrqrcwql10ft"}],"disc_number":1,"duration_ms":218146,"explicit":true,"external_ids":{"isrc":"USUM71710087"},"external_urls":{"spotify":"https:\/\/open.spotify.com\/track\/0e7ipj03S05BNilyu5bRzt"},"href":"https:\/\/api.spotify.com\/v1\/tracks\/0e7ipj03S05BNilyu5bRzt","id":"0e7ipj03S05BNilyu5bRzt","is_local":false,"is_playable":true,"name":"rockstar (feat. 21 Savage)","popularity":85,"preview_url":null,"track_number":6,"type":"track","uri":"spotify:track:0e7ipj03S05BNilyu5bRzt"},"2":{"album":{"album_type":"album","artists":[{"external_urls":{"spotify":"https:\/\/open.spotify.com\/artist\/246dkjvS1zLTtiykXe5h60"},"href":"https:\/\/api.spotify.com\/v1\/artists\/246dkjvS1zLTtiykXe5h60","id":"246dkjvS1zLTtiykXe5h60","name":"Post Malone","type":"artist","uri":"spotify:artist:246dkjvS1zLTtiykXe5h60"}],"external_urls":{"spotify":"https:\/\/open.spotify.com\/album\/4g1ZRSobMefqF6nelkgibi"},"href":"https:\/\/api.spotify.com\/v1\/albums\/4g1ZRSobMefqF6nelkgibi","id":"4g1ZRSobMefqF6nelkgibi","images":[{"height":640,"url":"https:\/\/i.scdn.co\/image\/ab67616d0000b2739478c87599550dd73bfa7e02","width":640},{"height":300,"url":"https:\/\/i.scdn.co\/image\/ab67616d00001e029478c87599550dd73bfa7e02","width":300},{"height":64,"url":"https:\/\/i.scdn.co\/image\/ab67616d000048519478c87599550dd73bfa7e02","width":64}],"name":"Hollywood's Bleeding","release_date":"2019-09-06","release_date_precision":"day","total_tracks":17,"type":"album","uri":"spotify:album:4g1ZRSobMefqF6nelkgibi"},"artists":[{"external_urls":{"spotify":"https:\/\/open.spotify.com\/artist\/246dkjvS1zLTtiykXe5h60"},"href":"https:\/\/api.spotify.com\/v1\/artists\/246dkjvS1zLTtiykXe5h60","id":"246dkjvS1zLTtiykXe5h60","name":"Post Malone","type":"artist","uri":"spotify:artist:246dkjvS1zLTtiykXe5h60"},{"external_urls":{"spotify":"https:\/\/open.spotify.com\/artist\/1zNqQNIdeOUZHb8zbZRFMX"},"href":"https:\/\/api.spotify.com\/v1\/artists\/1zNqQNIdeOUZHb8zbZRFMX","id":"1zNqQNIdeOUZHb8zbZRFMX","name":"Swae Lee","type":"artist","uri":"spotify:artist:1zNqQNIdeOUZHb8zbZRFMX"}],"disc_number":1,"duration_ms":157560,"explicit":false,"external_ids":{"isrc":"USUM71814888"},"external_urls":{"spotify":"https:\/\/open.spotify.com\/track\/0RiRZpuVRbi7oqRdSMwhQY"},"href":"https:\/\/api.spotify.com\/v1\/tracks\/0RiRZpuVRbi7oqRdSMwhQY","id":"0RiRZpuVRbi7oqRdSMwhQY","is_local":false,"is_playable":true,"name":"Sunflower - Spider-Man: Into the Spider-Verse","popularity":82,"preview_url":null,"track_number":12,"type":"track","uri":"spotify:track:0RiRZpuVRbi7oqRdSMwhQY"},"3":{"album":{"album_type":"album","artists":[{"external_urls":{"spotify":"https:\/\/open.spotify.com\/artist\/246dkjvS1zLTtiykXe5h60"},"href":"https:\/\/api.spotify.com\/v1\/artists\/246dkjvS1zLTtiykXe5h60","id":"246dkjvS1zLTtiykXe5h60","name":"Post Malone","type":"artist","uri":"spotify:artist:246dkjvS1zLTtiykXe5h60"}],"external_urls":{"spotify":"https:\/\/open.spotify.com\/album\/6trNtQUgC8cgbWcqoMYkOR"},"href":"https:\/\/api.spotify.com\/v1\/albums\/6trNtQUgC8cgbWcqoMYkOR","id":"6trNtQUgC8cgbWcqoMYkOR","images":[{"height":640,"url":"https:\/\/i.scdn.co\/image\/ab67616d0000b273b1c4b76e23414c9f20242268","width":640},{"height":300,"url":"https:\/\/i.scdn.co\/image\/ab67616d00001e02b1c4b76e23414c9f20242268","width":300},{"height":64,"url":"https:\/\/i.scdn.co\/image\/ab67616d00004851b1c4b76e23414c9f20242268","width":64}],"name":"beerbongs & bentleys","release_date":"2018-04-27","release_date_precision":"day","total_tracks":18,"type":"album","uri":"spotify:album:6trNtQUgC8cgbWcqoMYkOR"},"artists":[{"external_urls":{"spotify":"https:\/\/open.spotify.com\/artist\/246dkjvS1zLTtiykXe5h60"},"href":"https:\/\/api.spotify.com\/v1\/artists\/246dkjvS1zLTtiykXe5h60","id":"246dkjvS1zLTtiykXe5h60","name":"Post Malone","type":"artist","uri":"spotify:artist:246dkjvS1zLTtiykXe5h60"}],"disc_number":1,"duration_ms":231266,"explicit":true,"external_ids":{"isrc":"USUM71805170"},"external_urls":{"spotify":"https:\/\/open.spotify.com\/track\/7dt6x5M1jzdTEt8oCbisTK"},"href":"https:\/\/api.spotify.com\/v1\/tracks\/7dt6x5M1jzdTEt8oCbisTK","id":"7dt6x5M1jzdTEt8oCbisTK","is_local":false,"is_playable":true,"name":"Better Now","popularity":84,"preview_url":null,"track_number":9,"type":"track","uri":"spotify:track:7dt6x5M1jzdTEt8oCbisTK"},"4":{"album":{"album_type":"album","artists":[{"external_urls":{"spotify":"https:\/\/open.spotify.com\/artist\/246dkjvS1zLTtiykXe5h60"},"href":"https:\/\/api.spotify.com\/v1\/artists\/246dkjvS1zLTtiykXe5h60","id":"246dkjvS1zLTtiykXe5h60","name":"Post Malone","type":"artist","uri":"spotify:artist:246dkjvS1zLTtiykXe5h60"}],"external_urls":{"spotify":"https:\/\/open.spotify.com\/album\/4g1ZRSobMefqF6nelkgibi"},"href":"https:\/\/api.spotify.com\/v1\/albums\/4g1ZRSobMefqF6nelkgibi","id":"4g1ZRSobMefqF6nelkgibi","images":[{"height":640,"url":"https:\/\/i.scdn.co\/image\/ab67616d0000b2739478c87599550dd73bfa7e02","width":640},{"height":300,"url":"https:\/\/i.scdn.co\/image\/ab67616d00001e029478c87599550dd73bfa7e02","width":300},{"height":64,"url":"https:\/\/i.scdn.co\/image\/ab67616d000048519478c87599550dd73bfa7e02","width":64}],"name":"Hollywood's Bleeding","release_date":"2019-09-06","release_date_precision":"day","total_tracks":17,"type":"album","uri":"spotify:album:4g1ZRSobMefqF6nelkgibi"},"artists":[{"external_urls":{"spotify":"https:\/\/open.spotify.com\/artist\/246dkjvS1zLTtiykXe5h60"},"href":"https:\/\/api.spotify.com\/v1\/artists\/246dkjvS1zLTtiykXe5h60","id":"246dkjvS1zLTtiykXe5h60","name":"Post Malone","type":"artist","uri":"spotify:artist:246dkjvS1zLTtiykXe5h60"}],"disc_number":1,"duration_ms":149546,"explicit":true,"external_ids":{"isrc":"USUM71822626"},"external_urls":{"spotify":"https:\/\/open.spotify.com\/track\/7xQAfvXzm3AkraOtGPWIZg"},"href":"https:\/\/api.spotify.com\/v1\/tracks\/7xQAfvXzm3AkraOtGPWIZg","id":"7xQAfvXzm3AkraOtGPWIZg","is_local":false,"is_playable":true,"name":"Wow.","popularity":83,"preview_url":null,"track_number":17,"type":"track","uri":"spotify:track:7xQAfvXzm3AkraOtGPWIZg"},"5":{"album":{"album_type":"album","artists":[{"external_urls":{"spotify":"https:\/\/open.spotify.com\/artist\/246dkjvS1zLTtiykXe5h60"},"href":"https:\/\/api.spotify.com\/v1\/artists\/246dkjvS1zLTtiykXe5h60","id":"246dkjvS1zLTtiykXe5h60","name":"Post Malone","type":"artist","uri":"spotify:artist:246dkjvS1zLTtiykXe5h60"}],"external_urls":{"spotify":"https:\/\/open.spotify.com\/album\/5s0rmjP8XOPhP6HhqOhuyC"},"href":"https:\/\/api.spotify.com\/v1\/albums\/5s0rmjP8XOPhP6HhqOhuyC","id":"5s0rmjP8XOPhP6HhqOhuyC","images":[{"height":640,"url":"https:\/\/i.scdn.co\/image\/ab67616d0000b27355404f712deb84d0650a4b41","width":640},{"height":300,"url":"https:\/\/i.scdn.co\/image\/ab67616d00001e0255404f712deb84d0650a4b41","width":300},{"height":64,"url":"https:\/\/i.scdn.co\/image\/ab67616d0000485155404f712deb84d0650a4b41","width":64}],"name":"Stoney (Deluxe)","release_date":"2016-12-09","release_date_precision":"day","total_tracks":18,"type":"album","uri":"spotify:album:5s0rmjP8XOPhP6HhqOhuyC"},"artists":[{"external_urls":{"spotify":"https:\/\/open.spotify.com\/artist\/246dkjvS1zLTtiykXe5h60"},"href":"https:\/\/api.spotify.com\/v1\/artists\/246dkjvS1zLTtiykXe5h60","id":"246dkjvS1zLTtiykXe5h60","name":"Post Malone","type":"artist","uri":"spotify:artist:246dkjvS1zLTtiykXe5h60"}],"disc_number":1,"duration_ms":223346,"explicit":true,"external_ids":{"isrc":"USUM71614475"},"external_urls":{"spotify":"https:\/\/open.spotify.com\/track\/75ZvA4QfFiZvzhj2xkaWAh"},"href":"https:\/\/api.spotify.com\/v1\/tracks\/75ZvA4QfFiZvzhj2xkaWAh","id":"75ZvA4QfFiZvzhj2xkaWAh","is_local":false,"is_playable":true,"name":"I Fall Apart","popularity":82,"preview_url":null,"track_number":7,"type":"track","uri":"spotify:track:75ZvA4QfFiZvzhj2xkaWAh"},"6":{"album":{"album_type":"album","artists":[{"external_urls":{"spotify":"https:\/\/open.spotify.com\/artist\/246dkjvS1zLTtiykXe5h60"},"href":"https:\/\/api.spotify.com\/v1\/artists\/246dkjvS1zLTtiykXe5h60","id":"246dkjvS1zLTtiykXe5h60","name":"Post Malone","type":"artist","uri":"spotify:artist:246dkjvS1zLTtiykXe5h60"}],"external_urls":{"spotify":"https:\/\/open.spotify.com\/album\/5s0rmjP8XOPhP6HhqOhuyC"},"href":"https:\/\/api.spotify.com\/v1\/albums\/5s0rmjP8XOPhP6HhqOhuyC","id":"5s0rmjP8XOPhP6HhqOhuyC","images":[{"height":640,"url":"https:\/\/i.scdn.co\/image\/ab67616d0000b27355404f712deb84d0650a4b41","width":640},{"height":300,"url":"https:\/\/i.scdn.co\/image\/ab67616d00001e0255404f712deb84d0650a4b41","width":300},{"height":64,"url":"https:\/\/i.scdn.co\/image\/ab67616d0000485155404f712deb84d0650a4b41","width":64}],"name":"Stoney (Deluxe)","release_date":"2016-12-09","release_date_precision":"day","total_tracks":18,"type":"album","uri":"spotify:album:5s0rmjP8XOPhP6HhqOhuyC"},"artists":[{"external_urls":{"spotify":"https:\/\/open.spotify.com\/artist\/246dkjvS1zLTtiykXe5h60"},"href":"https:\/\/api.spotify.com\/v1\/artists\/246dkjvS1zLTtiykXe5h60","id":"246dkjvS1zLTtiykXe5h60","name":"Post Malone","type":"artist","uri":"spotify:artist:246dkjvS1zLTtiykXe5h60"},{"external_urls":{"spotify":"https:\/\/open.spotify.com\/artist\/0VRj0yCOv2FXJNP47XQnx5"},"href":"https:\/\/api.spotify.com\/v1\/artists\/0VRj0yCOv2FXJNP47XQnx5","id":"0VRj0yCOv2FXJNP47XQnx5","name":"Quavo","type":"artist","uri":"spotify:artist:0VRj0yCOv2FXJNP47XQnx5"}],"disc_number":1,"duration_ms":220293,"explicit":true,"external_ids":{"isrc":"USUM71614484"},"external_urls":{"spotify":"https:\/\/open.spotify.com\/track\/3a1lNhkSLSkpJE4MSHpDu9"},"href":"https:\/\/api.spotify.com\/v1\/tracks\/3a1lNhkSLSkpJE4MSHpDu9","id":"3a1lNhkSLSkpJE4MSHpDu9","is_local":false,"is_playable":true,"name":"Congratulations","popularity":82,"preview_url":null,"track_number":12,"type":"track","uri":"spotify:track:3a1lNhkSLSkpJE4MSHpDu9"},"7":{"album":{"album_type":"album","artists":[{"external_urls":{"spotify":"https:\/\/open.spotify.com\/artist\/246dkjvS1zLTtiykXe5h60"},"href":"https:\/\/api.spotify.com\/v1\/artists\/246dkjvS1zLTtiykXe5h60","id":"246dkjvS1zLTtiykXe5h60","name":"Post Malone","type":"artist","uri":"spotify:artist:246dkjvS1zLTtiykXe5h60"}],"external_urls":{"spotify":"https:\/\/open.spotify.com\/album\/4g1ZRSobMefqF6nelkgibi"},"href":"https:\/\/api.spotify.com\/v1\/albums\/4g1ZRSobMefqF6nelkgibi","id":"4g1ZRSobMefqF6nelkgibi","images":[{"height":640,"url":"https:\/\/i.scdn.co\/image\/ab67616d0000b2739478c87599550dd73bfa7e02","width":640},{"height":300,"url":"https:\/\/i.scdn.co\/image\/ab67616d00001e029478c87599550dd73bfa7e02","width":300},{"height":64,"url":"https:\/\/i.scdn.co\/image\/ab67616d000048519478c87599550dd73bfa7e02","width":64}],"name":"Hollywood's Bleeding","release_date":"2019-09-06","release_date_precision":"day","total_tracks":17,"type":"album","uri":"spotify:album:4g1ZRSobMefqF6nelkgibi"},"artists":[{"external_urls":{"spotify":"https:\/\/open.spotify.com\/artist\/246dkjvS1zLTtiykXe5h60"},"href":"https:\/\/api.spotify.com\/v1\/artists\/246dkjvS1zLTtiykXe5h60","id":"246dkjvS1zLTtiykXe5h60","name":"Post Malone","type":"artist","uri":"spotify:artist:246dkjvS1zLTtiykXe5h60"},{"external_urls":{"spotify":"https:\/\/open.spotify.com\/artist\/50co4Is1HCEo8bhOyUWKpn"},"href":"https:\/\/api.spotify.com\/v1\/artists\/50co4Is1HCEo8bhOyUWKpn","id":"50co4Is1HCEo8bhOyUWKpn","name":"Young Thug","type":"artist","uri":"spotify:artist:50co4Is1HCEo8bhOyUWKpn"}],"disc_number":1,"duration_ms":174853,"explicit":true,"external_ids":{"isrc":"USUM71912330"},"external_urls":{"spotify":"https:\/\/open.spotify.com\/track\/0t3ZvGKlmYmVsDzBJAXK8C"},"href":"https:\/\/api.spotify.com\/v1\/tracks\/0t3ZvGKlmYmVsDzBJAXK8C","id":"0t3ZvGKlmYmVsDzBJAXK8C","is_local":false,"is_playable":true,"name":"Goodbyes (feat. Young Thug)","popularity":82,"preview_url":null,"track_number":14,"type":"track","uri":"spotify:track:0t3ZvGKlmYmVsDzBJAXK8C"},"8":{"album":{"album_type":"album","artists":[{"external_urls":{"spotify":"https:\/\/open.spotify.com\/artist\/246dkjvS1zLTtiykXe5h60"},"href":"https:\/\/api.spotify.com\/v1\/artists\/246dkjvS1zLTtiykXe5h60","id":"246dkjvS1zLTtiykXe5h60","name":"Post Malone","type":"artist","uri":"spotify:artist:246dkjvS1zLTtiykXe5h60"}],"external_urls":{"spotify":"https:\/\/open.spotify.com\/album\/6trNtQUgC8cgbWcqoMYkOR"},"href":"https:\/\/api.spotify.com\/v1\/albums\/6trNtQUgC8cgbWcqoMYkOR","id":"6trNtQUgC8cgbWcqoMYkOR","images":[{"height":640,"url":"https:\/\/i.scdn.co\/image\/ab67616d0000b273b1c4b76e23414c9f20242268","width":640},{"height":300,"url":"https:\/\/i.scdn.co\/image\/ab67616d00001e02b1c4b76e23414c9f20242268","width":300},{"height":64,"url":"https:\/\/i.scdn.co\/image\/ab67616d00004851b1c4b76e23414c9f20242268","width":64}],"name":"beerbongs & bentleys","release_date":"2018-04-27","release_date_precision":"day","total_tracks":18,"type":"album","uri":"spotify:album:6trNtQUgC8cgbWcqoMYkOR"},"artists":[{"external_urls":{"spotify":"https:\/\/open.spotify.com\/artist\/246dkjvS1zLTtiykXe5h60"},"href":"https:\/\/api.spotify.com\/v1\/artists\/246dkjvS1zLTtiykXe5h60","id":"246dkjvS1zLTtiykXe5h60","name":"Post Malone","type":"artist","uri":"spotify:artist:246dkjvS1zLTtiykXe5h60"},{"external_urls":{"spotify":"https:\/\/open.spotify.com\/artist\/7c0XG5cIJTrrAgEC3ULPiq"},"href":"https:\/\/api.spotify.com\/v1\/artists\/7c0XG5cIJTrrAgEC3ULPiq","id":"7c0XG5cIJTrrAgEC3ULPiq","name":"Ty Dolla $ign","type":"artist","uri":"spotify:artist:7c0XG5cIJTrrAgEC3ULPiq"}],"disc_number":1,"duration_ms":221440,"explicit":true,"external_ids":{"isrc":"USUM71710836"},"external_urls":{"spotify":"https:\/\/open.spotify.com\/track\/3swc6WTsr7rl9DqQKQA55C"},"href":"https:\/\/api.spotify.com\/v1\/tracks\/3swc6WTsr7rl9DqQKQA55C","id":"3swc6WTsr7rl9DqQKQA55C","is_local":false,"is_playable":true,"name":"Psycho (feat. Ty Dolla $ign)","popularity":80,"preview_url":null,"track_number":8,"type":"track","uri":"spotify:track:3swc6WTsr7rl9DqQKQA55C"},"9":{"album":{"album_type":"single","artists":[{"external_urls":{"spotify":"https:\/\/open.spotify.com\/artist\/1MXZ0hsGic96dWRDKwAwdr"},"href":"https:\/\/api.spotify.com\/v1\/artists\/1MXZ0hsGic96dWRDKwAwdr","id":"1MXZ0hsGic96dWRDKwAwdr","name":"Tyla Yaweh","type":"artist","uri":"spotify:artist:1MXZ0hsGic96dWRDKwAwdr"},{"external_urls":{"spotify":"https:\/\/open.spotify.com\/artist\/246dkjvS1zLTtiykXe5h60"},"href":"https:\/\/api.spotify.com\/v1\/artists\/246dkjvS1zLTtiykXe5h60","id":"246dkjvS1zLTtiykXe5h60","name":"Post Malone","type":"artist","uri":"spotify:artist:246dkjvS1zLTtiykXe5h60"}],"external_urls":{"spotify":"https:\/\/open.spotify.com\/album\/2PFiZ23ZyPTcgwmXk4X6o0"},"href":"https:\/\/api.spotify.com\/v1\/albums\/2PFiZ23ZyPTcgwmXk4X6o0","id":"2PFiZ23ZyPTcgwmXk4X6o0","images":[{"height":640,"url":"https:\/\/i.scdn.co\/image\/ab67616d0000b273e9f7839f5017f87ca7f5e4f0","width":640},{"height":300,"url":"https:\/\/i.scdn.co\/image\/ab67616d00001e02e9f7839f5017f87ca7f5e4f0","width":300},{"height":64,"url":"https:\/\/i.scdn.co\/image\/ab67616d00004851e9f7839f5017f87ca7f5e4f0","width":64}],"name":"Tommy Lee (feat. Post Malone)","release_date":"2020-06-12","release_date_precision":"day","total_tracks":1,"type":"album","uri":"spotify:album:2PFiZ23ZyPTcgwmXk4X6o0"},"artists":[{"external_urls":{"spotify":"https:\/\/open.spotify.com\/artist\/1MXZ0hsGic96dWRDKwAwdr"},"href":"https:\/\/api.spotify.com\/v1\/artists\/1MXZ0hsGic96dWRDKwAwdr","id":"1MXZ0hsGic96dWRDKwAwdr","name":"Tyla Yaweh","type":"artist","uri":"spotify:artist:1MXZ0hsGic96dWRDKwAwdr"},{"external_urls":{"spotify":"https:\/\/open.spotify.com\/artist\/246dkjvS1zLTtiykXe5h60"},"href":"https:\/\/api.spotify.com\/v1\/artists\/246dkjvS1zLTtiykXe5h60","id":"246dkjvS1zLTtiykXe5h60","name":"Post Malone","type":"artist","uri":"spotify:artist:246dkjvS1zLTtiykXe5h60"}],"disc_number":1,"duration_ms":224638,"explicit":true,"external_ids":{"isrc":"USSM12003633"},"external_urls":{"spotify":"https:\/\/open.spotify.com\/track\/5QZKcQDp0tCcvMdyqEciBV"},"href":"https:\/\/api.spotify.com\/v1\/tracks\/5QZKcQDp0tCcvMdyqEciBV","id":"5QZKcQDp0tCcvMdyqEciBV","is_local":false,"is_playable":true,"name":"Tommy Lee (feat. Post Malone)","popularity":80,"preview_url":"https:\/\/p.scdn.co\/mp3-preview\/43127357fd05bdf7819848a668230c55867d1921?cid=087c43da5f8f4701af2195902f821d91","track_number":1,"type":"track","uri":"spotify:track:5QZKcQDp0tCcvMdyqEciBV"}}}
+{
+    "tracks": {
+        "0": {
+            "album": {
+                "album_type": "single",
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                        "name": "Ariana Grande",
+                        "type": "artist",
+                        "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                    },
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/1uNFoZAHBGtllmzznpCI3s",
+                        "id": "1uNFoZAHBGtllmzznpCI3s",
+                        "name": "Justin Bieber",
+                        "type": "artist",
+                        "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/5mUdh6YWnUvf0MfklEk1oi"
+                },
+                "href": "https://api.spotify.com/v1/albums/5mUdh6YWnUvf0MfklEk1oi",
+                "id": "5mUdh6YWnUvf0MfklEk1oi",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b2732babb9dbd8f5146112f1bf86",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e022babb9dbd8f5146112f1bf86",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d000048512babb9dbd8f5146112f1bf86",
+                        "width": 64
+                    }
+                ],
+                "name": "Stuck with U",
+                "release_date": "2020-05-08",
+                "release_date_precision": "day",
+                "total_tracks": 1,
+                "type": "album",
+                "uri": "spotify:album:5mUdh6YWnUvf0MfklEk1oi"
+            },
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                    "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                    "name": "Ariana Grande",
+                    "type": "artist",
+                    "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1uNFoZAHBGtllmzznpCI3s",
+                    "id": "1uNFoZAHBGtllmzznpCI3s",
+                    "name": "Justin Bieber",
+                    "type": "artist",
+                    "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 228482,
+            "explicit": false,
+            "external_ids": {
+                "isrc": "USUM72009644"
+            },
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/4HBZA5flZLE435QTztThqH"
+            },
+            "href": "https://api.spotify.com/v1/tracks/4HBZA5flZLE435QTztThqH",
+            "id": "4HBZA5flZLE435QTztThqH",
+            "is_local": false,
+            "is_playable": true,
+            "name": "Stuck with U (with Justin Bieber)",
+            "popularity": 90,
+            "preview_url": null,
+            "track_number": 1,
+            "type": "track",
+            "uri": "spotify:track:4HBZA5flZLE435QTztThqH"
+        },
+        "1": {
+            "album": {
+                "album_type": "single",
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                        "name": "Ariana Grande",
+                        "type": "artist",
+                        "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/3jqEvfiu2ENgmgzZq27zbi"
+                },
+                "href": "https://api.spotify.com/v1/albums/3jqEvfiu2ENgmgzZq27zbi",
+                "id": "3jqEvfiu2ENgmgzZq27zbi",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b2737368325f5998ef48d4fb5401",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e027368325f5998ef48d4fb5401",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d000048517368325f5998ef48d4fb5401",
+                        "width": 64
+                    }
+                ],
+                "name": "positions",
+                "release_date": "2020-10-23",
+                "release_date_precision": "day",
+                "total_tracks": 1,
+                "type": "album",
+                "uri": "spotify:album:3jqEvfiu2ENgmgzZq27zbi"
+            },
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                    "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                    "name": "Ariana Grande",
+                    "type": "artist",
+                    "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 172324,
+            "explicit": true,
+            "external_ids": {
+                "isrc": "USUM72019412"
+            },
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/7igeByaBM0MgGsgXtNxDJ7"
+            },
+            "href": "https://api.spotify.com/v1/tracks/7igeByaBM0MgGsgXtNxDJ7",
+            "id": "7igeByaBM0MgGsgXtNxDJ7",
+            "is_local": false,
+            "is_playable": true,
+            "name": "positions",
+            "popularity": 0,
+            "preview_url": null,
+            "track_number": 1,
+            "type": "track",
+            "uri": "spotify:track:7igeByaBM0MgGsgXtNxDJ7"
+        },
+        "2": {
+            "album": {
+                "album_type": "album",
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/1HY2Jd0NmPuamShAr6KMms"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/1HY2Jd0NmPuamShAr6KMms",
+                        "id": "1HY2Jd0NmPuamShAr6KMms",
+                        "name": "Lady Gaga",
+                        "type": "artist",
+                        "uri": "spotify:artist:1HY2Jd0NmPuamShAr6KMms"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/05c49JgPmL4Uz2ZeqRx5SP"
+                },
+                "href": "https://api.spotify.com/v1/albums/05c49JgPmL4Uz2ZeqRx5SP",
+                "id": "05c49JgPmL4Uz2ZeqRx5SP",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b2736040effba89b9b00a6f6743a",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e026040effba89b9b00a6f6743a",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d000048516040effba89b9b00a6f6743a",
+                        "width": 64
+                    }
+                ],
+                "name": "Chromatica",
+                "release_date": "2020-05-29",
+                "release_date_precision": "day",
+                "total_tracks": 16,
+                "type": "album",
+                "uri": "spotify:album:05c49JgPmL4Uz2ZeqRx5SP"
+            },
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1HY2Jd0NmPuamShAr6KMms"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1HY2Jd0NmPuamShAr6KMms",
+                    "id": "1HY2Jd0NmPuamShAr6KMms",
+                    "name": "Lady Gaga",
+                    "type": "artist",
+                    "uri": "spotify:artist:1HY2Jd0NmPuamShAr6KMms"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                    "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                    "name": "Ariana Grande",
+                    "type": "artist",
+                    "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 182200,
+            "explicit": false,
+            "external_ids": {
+                "isrc": "USUM72004304"
+            },
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/7ju97lgwC2rKQ6wwsf9no9"
+            },
+            "href": "https://api.spotify.com/v1/tracks/7ju97lgwC2rKQ6wwsf9no9",
+            "id": "7ju97lgwC2rKQ6wwsf9no9",
+            "is_local": false,
+            "is_playable": true,
+            "name": "Rain On Me (with Ariana Grande)",
+            "popularity": 83,
+            "preview_url": null,
+            "track_number": 4,
+            "type": "track",
+            "uri": "spotify:track:7ju97lgwC2rKQ6wwsf9no9"
+        },
+        "3": {
+            "album": {
+                "album_type": "album",
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                        "name": "Ariana Grande",
+                        "type": "artist",
+                        "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/2fYhqwDWXjbpjaIJPEfKFw"
+                },
+                "href": "https://api.spotify.com/v1/albums/2fYhqwDWXjbpjaIJPEfKFw",
+                "id": "2fYhqwDWXjbpjaIJPEfKFw",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b27356ac7b86e090f307e218e9c8",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e0256ac7b86e090f307e218e9c8",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d0000485156ac7b86e090f307e218e9c8",
+                        "width": 64
+                    }
+                ],
+                "name": "thank u, next",
+                "release_date": "2019-02-08",
+                "release_date_precision": "day",
+                "total_tracks": 12,
+                "type": "album",
+                "uri": "spotify:album:2fYhqwDWXjbpjaIJPEfKFw"
+            },
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                    "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                    "name": "Ariana Grande",
+                    "type": "artist",
+                    "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 178626,
+            "explicit": true,
+            "external_ids": {
+                "isrc": "USUM71900110"
+            },
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/6ocbgoVGwYJhOv1GgI9NsF"
+            },
+            "href": "https://api.spotify.com/v1/tracks/6ocbgoVGwYJhOv1GgI9NsF",
+            "id": "6ocbgoVGwYJhOv1GgI9NsF",
+            "is_local": false,
+            "is_playable": true,
+            "name": "7 rings",
+            "popularity": 86,
+            "preview_url": null,
+            "track_number": 10,
+            "type": "track",
+            "uri": "spotify:track:6ocbgoVGwYJhOv1GgI9NsF"
+        },
+        "4": {
+            "album": {
+                "album_type": "album",
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                        "name": "Ariana Grande",
+                        "type": "artist",
+                        "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/2fYhqwDWXjbpjaIJPEfKFw"
+                },
+                "href": "https://api.spotify.com/v1/albums/2fYhqwDWXjbpjaIJPEfKFw",
+                "id": "2fYhqwDWXjbpjaIJPEfKFw",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b27356ac7b86e090f307e218e9c8",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e0256ac7b86e090f307e218e9c8",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d0000485156ac7b86e090f307e218e9c8",
+                        "width": 64
+                    }
+                ],
+                "name": "thank u, next",
+                "release_date": "2019-02-08",
+                "release_date_precision": "day",
+                "total_tracks": 12,
+                "type": "album",
+                "uri": "spotify:album:2fYhqwDWXjbpjaIJPEfKFw"
+            },
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                    "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                    "name": "Ariana Grande",
+                    "type": "artist",
+                    "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 207320,
+            "explicit": true,
+            "external_ids": {
+                "isrc": "USUM71819361"
+            },
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/3e9HZxeyfWwjeyPAMmWSSQ"
+            },
+            "href": "https://api.spotify.com/v1/tracks/3e9HZxeyfWwjeyPAMmWSSQ",
+            "id": "3e9HZxeyfWwjeyPAMmWSSQ",
+            "is_local": false,
+            "is_playable": true,
+            "name": "thank u, next",
+            "popularity": 84,
+            "preview_url": null,
+            "track_number": 11,
+            "type": "track",
+            "uri": "spotify:track:3e9HZxeyfWwjeyPAMmWSSQ"
+        },
+        "5": {
+            "album": {
+                "album_type": "album",
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                        "name": "Ariana Grande",
+                        "type": "artist",
+                        "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/3tx8gQqWbGwqIGZHqDNrGe"
+                },
+                "href": "https://api.spotify.com/v1/albums/3tx8gQqWbGwqIGZHqDNrGe",
+                "id": "3tx8gQqWbGwqIGZHqDNrGe",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b273c3af0c2355c24ed7023cd394",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e02c3af0c2355c24ed7023cd394",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d00004851c3af0c2355c24ed7023cd394",
+                        "width": 64
+                    }
+                ],
+                "name": "Sweetener",
+                "release_date": "2018-08-17",
+                "release_date_precision": "day",
+                "total_tracks": 15,
+                "type": "album",
+                "uri": "spotify:album:3tx8gQqWbGwqIGZHqDNrGe"
+            },
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                    "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                    "name": "Ariana Grande",
+                    "type": "artist",
+                    "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 205920,
+            "explicit": false,
+            "external_ids": {
+                "isrc": "USUM71805289"
+            },
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/2qT1uLXPVPzGgFOx4jtEuo"
+            },
+            "href": "https://api.spotify.com/v1/tracks/2qT1uLXPVPzGgFOx4jtEuo",
+            "id": "2qT1uLXPVPzGgFOx4jtEuo",
+            "is_local": false,
+            "is_playable": true,
+            "name": "no tears left to cry",
+            "popularity": 81,
+            "preview_url": null,
+            "track_number": 10,
+            "type": "track",
+            "uri": "spotify:track:2qT1uLXPVPzGgFOx4jtEuo"
+        },
+        "6": {
+            "album": {
+                "album_type": "album",
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                        "name": "Ariana Grande",
+                        "type": "artist",
+                        "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/3tx8gQqWbGwqIGZHqDNrGe"
+                },
+                "href": "https://api.spotify.com/v1/albums/3tx8gQqWbGwqIGZHqDNrGe",
+                "id": "3tx8gQqWbGwqIGZHqDNrGe",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b273c3af0c2355c24ed7023cd394",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e02c3af0c2355c24ed7023cd394",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d00004851c3af0c2355c24ed7023cd394",
+                        "width": 64
+                    }
+                ],
+                "name": "Sweetener",
+                "release_date": "2018-08-17",
+                "release_date_precision": "day",
+                "total_tracks": 15,
+                "type": "album",
+                "uri": "spotify:album:3tx8gQqWbGwqIGZHqDNrGe"
+            },
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                    "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                    "name": "Ariana Grande",
+                    "type": "artist",
+                    "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 197546,
+            "explicit": true,
+            "external_ids": {
+                "isrc": "USUM71808574"
+            },
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/5OCJzvD7sykQEKHH7qAC3C"
+            },
+            "href": "https://api.spotify.com/v1/tracks/5OCJzvD7sykQEKHH7qAC3C",
+            "id": "5OCJzvD7sykQEKHH7qAC3C",
+            "is_local": false,
+            "is_playable": true,
+            "name": "God is a woman",
+            "popularity": 80,
+            "preview_url": null,
+            "track_number": 5,
+            "type": "track",
+            "uri": "spotify:track:5OCJzvD7sykQEKHH7qAC3C"
+        },
+        "7": {
+            "album": {
+                "album_type": "album",
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                        "name": "Ariana Grande",
+                        "type": "artist",
+                        "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/2fYhqwDWXjbpjaIJPEfKFw"
+                },
+                "href": "https://api.spotify.com/v1/albums/2fYhqwDWXjbpjaIJPEfKFw",
+                "id": "2fYhqwDWXjbpjaIJPEfKFw",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b27356ac7b86e090f307e218e9c8",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e0256ac7b86e090f307e218e9c8",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d0000485156ac7b86e090f307e218e9c8",
+                        "width": 64
+                    }
+                ],
+                "name": "thank u, next",
+                "release_date": "2019-02-08",
+                "release_date_precision": "day",
+                "total_tracks": 12,
+                "type": "album",
+                "uri": "spotify:album:2fYhqwDWXjbpjaIJPEfKFw"
+            },
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                    "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                    "name": "Ariana Grande",
+                    "type": "artist",
+                    "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 190440,
+            "explicit": true,
+            "external_ids": {
+                "isrc": "USUM71900409"
+            },
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/4kV4N9D1iKVxx1KLvtTpjS"
+            },
+            "href": "https://api.spotify.com/v1/tracks/4kV4N9D1iKVxx1KLvtTpjS",
+            "id": "4kV4N9D1iKVxx1KLvtTpjS",
+            "is_local": false,
+            "is_playable": true,
+            "name": "break up with your girlfriend, i'm bored",
+            "popularity": 79,
+            "preview_url": null,
+            "track_number": 12,
+            "type": "track",
+            "uri": "spotify:track:4kV4N9D1iKVxx1KLvtTpjS"
+        },
+        "8": {
+            "album": {
+                "album_type": "single",
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                        "name": "Ariana Grande",
+                        "type": "artist",
+                        "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                    },
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/5UjifI1TYefXWn9GdqDOHl"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/5UjifI1TYefXWn9GdqDOHl",
+                        "id": "5UjifI1TYefXWn9GdqDOHl",
+                        "name": "Social House",
+                        "type": "artist",
+                        "uri": "spotify:artist:5UjifI1TYefXWn9GdqDOHl"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/3zVB99XMdbP9HTVNg0GJwV"
+                },
+                "href": "https://api.spotify.com/v1/albums/3zVB99XMdbP9HTVNg0GJwV",
+                "id": "3zVB99XMdbP9HTVNg0GJwV",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b2732ca010dcf3863a07611d8b4f",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e022ca010dcf3863a07611d8b4f",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d000048512ca010dcf3863a07611d8b4f",
+                        "width": 64
+                    }
+                ],
+                "name": "boyfriend",
+                "release_date": "2019-08-02",
+                "release_date_precision": "day",
+                "total_tracks": 1,
+                "type": "album",
+                "uri": "spotify:album:3zVB99XMdbP9HTVNg0GJwV"
+            },
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                    "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                    "name": "Ariana Grande",
+                    "type": "artist",
+                    "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/5UjifI1TYefXWn9GdqDOHl"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/5UjifI1TYefXWn9GdqDOHl",
+                    "id": "5UjifI1TYefXWn9GdqDOHl",
+                    "name": "Social House",
+                    "type": "artist",
+                    "uri": "spotify:artist:5UjifI1TYefXWn9GdqDOHl"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 186106,
+            "explicit": true,
+            "external_ids": {
+                "isrc": "USUG11902591"
+            },
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/0Ryd8975WihbObpp5cPW1t"
+            },
+            "href": "https://api.spotify.com/v1/tracks/0Ryd8975WihbObpp5cPW1t",
+            "id": "0Ryd8975WihbObpp5cPW1t",
+            "is_local": false,
+            "is_playable": true,
+            "name": "boyfriend (with Social House)",
+            "popularity": 79,
+            "preview_url": null,
+            "track_number": 1,
+            "type": "track",
+            "uri": "spotify:track:0Ryd8975WihbObpp5cPW1t"
+        },
+        "9": {
+            "album": {
+                "album_type": "album",
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/2gsggkzM5R49q6jpPvazou"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/2gsggkzM5R49q6jpPvazou",
+                        "id": "2gsggkzM5R49q6jpPvazou",
+                        "name": "Jessie J",
+                        "type": "artist",
+                        "uri": "spotify:artist:2gsggkzM5R49q6jpPvazou"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/2rDIivxBafNKpgRqlzIRSb"
+                },
+                "href": "https://api.spotify.com/v1/albums/2rDIivxBafNKpgRqlzIRSb",
+                "id": "2rDIivxBafNKpgRqlzIRSb",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b273930f686fe89425c7b6bf9a7d",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e02930f686fe89425c7b6bf9a7d",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d00004851930f686fe89425c7b6bf9a7d",
+                        "width": 64
+                    }
+                ],
+                "name": "Sweet Talker (Deluxe Version)",
+                "release_date": "2014-10-14",
+                "release_date_precision": "day",
+                "total_tracks": 15,
+                "type": "album",
+                "uri": "spotify:album:2rDIivxBafNKpgRqlzIRSb"
+            },
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2gsggkzM5R49q6jpPvazou"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2gsggkzM5R49q6jpPvazou",
+                    "id": "2gsggkzM5R49q6jpPvazou",
+                    "name": "Jessie J",
+                    "type": "artist",
+                    "uri": "spotify:artist:2gsggkzM5R49q6jpPvazou"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                    "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                    "name": "Ariana Grande",
+                    "type": "artist",
+                    "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0hCNtLu0JehylgoiP8L4Gh"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0hCNtLu0JehylgoiP8L4Gh",
+                    "id": "0hCNtLu0JehylgoiP8L4Gh",
+                    "name": "Nicki Minaj",
+                    "type": "artist",
+                    "uri": "spotify:artist:0hCNtLu0JehylgoiP8L4Gh"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 199386,
+            "explicit": false,
+            "external_ids": {
+                "isrc": "USUM71409737"
+            },
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/0puf9yIluy9W0vpMEUoAnN"
+            },
+            "href": "https://api.spotify.com/v1/tracks/0puf9yIluy9W0vpMEUoAnN",
+            "id": "0puf9yIluy9W0vpMEUoAnN",
+            "is_local": false,
+            "is_playable": true,
+            "name": "Bang Bang",
+            "popularity": 79,
+            "preview_url": null,
+            "track_number": 4,
+            "type": "track",
+            "uri": "spotify:track:0puf9yIluy9W0vpMEUoAnN"
+        }
+    }
+}
