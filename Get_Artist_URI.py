@@ -29,5 +29,3 @@ def getUri(artist_list):
 
 uri_df = pd.DataFrame()
 uri_df = getUri(artist_list)
-
-uri_df.to_csv('artistURIs.csv')
