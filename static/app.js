@@ -1,4 +1,8 @@
 
+var Spotify = require('spotify-web-api-js');
+var s = new Spotify();
+var spotifyApi = new SpotifyWebApi();
+
 function retrieveInfo(name) {
     d3.json("artist_test2.json").then((data) => {
         var metadata = data[0].Metadata;
@@ -6,7 +10,7 @@ function retrieveInfo(name) {
         var result = metadata.filter(d => d.Artist === name)[0];
         var info = d3.select('#sample-metadata');
         info.html("");
-        info.append("h6").text("Artist: " + Object(result.Artist)).attr('font-weight',700);
+        info.append("h6").text("Artist: " + Object(result.Artist));
         Object.entries(result.Tracks).forEach((d,i) => {
             info.append("h6").text((i+1) + ": "+ d[1] + "\n");
         });
