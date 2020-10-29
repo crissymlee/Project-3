@@ -1,7 +1,15 @@
 
-var Spotify = require('spotify-web-api-js');
-var s = new Spotify();
-var spotifyApi = new SpotifyWebApi();
+var sp = new SpotifyWebApi();
+sp.setAccessToken("BQAC1mZvKTvGY0lPs6gSckoIAUbvUgY1-F7hQY-36Zp6MyBcdpyHZTl5xea_5E3q8B5YjAEhgpHYjlg712g")
+
+function getTrackFeatures(track) {
+    d3.json("artist_test2.json").then((data) => {
+        var track_id = "";
+        var metadata = data[0].Metadata;
+        var result = metadata.filter(d => d.Artist.Tracks === track);
+        console.log(result);
+    });
+};
 
 function retrieveInfo(name) {
     d3.json("artist_test2.json").then((data) => {
@@ -22,7 +30,9 @@ function optionChanged(name) {
     getTracks(name);
 }
 
-function optionChanged2(name) {};
+function optionChanged2(track) {
+    getTrackFeatures(track);
+};
 
 function getTracks(name) {
     var dropDown2 = d3.select('#selDataset2');
@@ -47,7 +57,7 @@ function init() {
             dropDown.append("option").text(d).property("value");
         });
         // retrievePlot(name);
-        retrieveInfo(data[0].Artists[0])
+        retrieveInfo(data[0].Artists[0]);
         getTracks(data[0].Artists[0]);
     });
 };
