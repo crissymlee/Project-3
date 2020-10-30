@@ -1,13 +1,12 @@
 
 var sp = new SpotifyWebApi();
-sp.setAccessToken("BQAC1mZvKTvGY0lPs6gSckoIAUbvUgY1-F7hQY-36Zp6MyBcdpyHZTl5xea_5E3q8B5YjAEhgpHYjlg712g")
+sp.setAccessToken('BQD1hruSX5MiQWPR7LhaBrBfMwQWnPe-EXHxVrzFEhRMKJIy42M2uwyftPn9-CzTz7QkP6eIC84-2p-wF6A')
 
 function getTrackFeatures(track) {
     d3.json("artist_test2.json").then((data) => {
-        var track_id = "";
-        var metadata = data[0].Metadata;
-        var result = metadata.filter(d => d.Artist.Tracks === track);
-        console.log(result);
+        var track_id = data[0].Metadata.Tracks.indexOf(Object(track));
+        console.log(track);
+        console.log(track_id);
     });
 };
 
@@ -38,6 +37,7 @@ function getTracks(name) {
     var dropDown2 = d3.select('#selDataset2');
     d3.json("artist_test2.json").then((data) => {
         var metadata = data[0].Metadata;
+        console.log(metadata);
         var result1 = metadata.filter(d => d.Artist === name)[0];
         console.log(result1);
         var tracks = Object.entries(result1.Tracks)
