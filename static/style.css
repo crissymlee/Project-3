@@ -2,6 +2,13 @@
  External CSS Stylesheet
  */
 
+ <!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {margin:0;}
+
 body {
     padding: 100;
     margin: 0;
@@ -36,14 +43,14 @@ body {
   }
   
   /* Selecting elements by class */
-  .container {
-    width: 1024px;
-    margin: 0 auto;
-    padding: 200px;
+  container {
+    width: 200%;
+    margin: 0;
+    padding: 0px;
     font-size: large;
   }
 
-  .button {
+  button {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
@@ -53,4 +60,33 @@ body {
     display: inline-block;
     font-size: 16px;
   }
-  
+  .artist{
+  width: 40%;
+  margin: 0;
+  padding: 0px;
+  font-size: large;
+    }
+
+  .icon-bar {
+  width: 100%; /* Full-width */
+  background-color: rgb(65, 75, 219); /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+  }
+
+  .icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: rgb(236, 236, 245); /* White text color */
+  font-size: 36px; /* Increased font size */
+  }
+
+  .icon-bar a:hover {
+  background-color: #000; /* Add a hover color */
+  }
+
+  .active {
+  background-color: #4CAF50; /* Add an active/current color */
+  }
