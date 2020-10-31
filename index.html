@@ -1,90 +1,148 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Project 3 - Music</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        </head>
-        
-        <!-- CSS and Bootstrap import -->
-        
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="style.css">
-        
-        <!-- Nav Bar Import  -->
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #1e0352 ;">
-                <a class="navbar-brand" style="color: rgb(77, 144, 202);" href="#">Music Popularity</a>
-                <button class="navbar-toggler" type="button" target="__blank__" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                  <ul class="navbar-nav">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="file:///C:/Users/Christina/Documents/GitHub/Homework/HTML%20and%20CSS%20Homework/landing.html"target="_blank" style="target-new: tab;">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="file:///C:/Users/Christina/Documents/GitHub/Homework/HTML%20and%20CSS%20Homework/comparison.html">Comparison</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="file:///C:/Users/Christina/Documents/GitHub/Homework/HTML%20and%20CSS%20Homework/data.html">Data</a>
-                    </li>
-                    <dili class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Visuals
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="file:///C:/Users/Christina/Documents/GitHub/Homework/HTML%20and%20CSS%20Homework/maxtemp.html">Max Temperature</a>
-                            <a class="dropdown-item" href="file:///C:/Users/Christina/Documents/GitHub/Homework/HTML%20and%20CSS%20Homework/humidity.html">Humidity</a>
-                            <a class="dropdown-item" href="file:///C:/Users/Christina/Documents/GitHub/Homework/HTML%20and%20CSS%20Homework/Cloudiness.html">Cloudiness</a>
-                            <a class="dropdown-item" href="file:///C:/Users/Christina/Documents/GitHub/Homework/HTML%20and%20CSS%20Homework/humidity.html">Humidity</a>
-                        </div>
-                      </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-       
-       
+<head><title>Explore Music</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- not sure we need this... <link rel="stylesheet" href="style.css"> -->
 
-       
-       
-    <!-- The body of the page -->
 
-    </head>
-    <div class="container">
-        <div class="row">
-          <div class="col p-3 mb-0 bg-info text-white">
-            <p>The purpose of this project was to figure out the weather as you got closer to the equator. In order to accomplish this goal we had to use the OpenWeatherMap API. The API allowed us to gather data on 500 cities. </p>
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    }
+    .myLink {
+      display: none;
+    }
+
+    .header-img {
+      height: 800px;
+      width: 100%;
+    }
+  </style>
+
+
+<!-- Navigation Bar with a dropdown -->
+  <body class="w3-light-grey">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #020a72e5 ;">
+      <a class="navbar-brand" style="color: rgb(160, 160, 160);" href="#">Music Popularity</a>
+      <button class="navbar-toggler" type="button" target="__blank__" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="file:///C:/Users/Christina/Documents/GitHub/Homework/HTML%20and%20CSS%20Homework/landing.html" target="_blank" style="target-new: true; color: rgb(197, 5, 110);">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="file:///C:/Users/Christina/Documents/GitHub/Homework/HTML%20and%20CSS%20Homework/comparison.html" style="color: rgb(197, 5, 110)">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="file:///C:/Users/Christina/Documents/GitHub/Homework/HTML%20and%20CSS%20Homework/data.html" style="color: rgb(197, 5, 110)">Data</a>
+          </li>
+          <dili class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Specifics
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="file:///C:/Users/Christina/Documents/GitHub/Homework/HTML%20and%20CSS%20Homework/maxtemp.html">Artist List</a>
+                  <a class="dropdown-item" href="file:///C:/Users/Christina/Documents/GitHub/Homework/HTML%20and%20CSS%20Homework/humidity.html">Songs List</a>
+                  <a class="dropdown-item" href="file:///C:/Users/Christina/Documents/GitHub/Homework/HTML%20and%20CSS%20Homework/Cloudiness.html">Genre List</a>
+                  <a class="dropdown-item" href="file:///C:/Users/Christina/Documents/GitHub/Homework/HTML%20and%20CSS%20Homework/humidity.html">Dancability List</a>
+              </div>
+            </dili>
+          </ul>
+        </div>
             
-            <p> We have now pulled in all of this data, so we were able to use Matplotlib in Jupyter Notebook to plot various aspects of the weather vs lattitude. Things that we looked at while we were plotting this information includes: temperature, cloudiness,</p> 
+    </nav>
+
+
+    <header class="w3-display-container w3-content" style="max-width: 100%">
+      <img class="header-img" src="https://popularastronomy.technicacuriosa.com/wp-content/uploads/sites/4/2017/03/shutterstock_202732684-steam-to-stem.jpg" alt="music note">
+    <div class="w3-display-middle" style="width: 40%">
+      <div class="w3-bar w3-indigo">
+        <button class="w3-bar-item w3-button" onclick="openLink(event, 'Flight');">
+          <i class="w3-margin-right"></i>Top 25 Artists
+        </button>
+      </div>
+
+      <!-- Tabs -->
+        <div class="row">
+          <div class="col-md-8">
+            <div class="well" style="background: radial-gradient(#c405c4, #3106a7);">
+              <h5>Artist:</h5>
+              <select id="selDataset" onchange="optionChanged(this.value)"></select>
+            </div>
+            <div class="well" style="background: radial-gradient(#c405c4, #3106a7);;">
+              <h5 style="font: bold;">Song:</h5>
+              <select id="selDataset2" onchange="optionChanged2(this.value)"></select>
+            </div>
+            <div class="panel panel-primary" style="background: radial-gradient(circle at 100%, #2b1ace, #4f16cf 50%, #6812cf 75%, #c405c4 50%);;">
+              <div class="panel-heading">
+                <h3 class="panel-title">Top Five Songs For Selected Artist</h3>
+              </div>
+              <div id="sample-metadata" class="panel-body"></div>
+            </div>
           </div>
-          <div class="col">
-            <img src="https://www.precisionpaincarerehab.com/editor-uploads/website-1004/joint-pain-weather-changes2-1514968856.jpg" height="350px">
+          <div class="col-md-5">
+            <div id="map"></div>
           </div>
-          <div class="row">
-            <ul class="list-group list-group-flush">
-                <li> <a href="file:///C:/Users/Christina/Documents/GitHub/Homework/HTML%20and%20CSS%20Homework/maxtemp.html">
-                    <img src="resources\assets\images\Fig1.png" alt="Max Temperature vs Latitude graph" height="95px"></a></li>
-                <li> <a href="file:///C:/Users/Christina/Documents/GitHub/Homework/HTML%20and%20CSS%20Homework/humidity.html">
-                    <img src="resources\assets\images\Fig2.png" alt="Humdity vs Latitude graph" height="95px"></a></li>
-                <li> <a href="file:///C:/Users/Christina/Documents/GitHub/Homework/HTML%20and%20CSS%20Homework/cloudiness.html">
-                    <img src="resources\assets\images\Fig3.png" alt="Cloudiness vs Latitude graph" height="95px"></a></li>
-                <li> <a href="file:///C:/Users/Christina/Documents/GitHub/Homework/HTML%20and%20CSS%20Homework/windspeed.html">
-                    <img src="resources\assets\images\Fig4.png" alt="Wind Speed vs Latitude graph" height="95px"></a></li>
-              </ul>
+          <div class="col-md-5">
+            <div id="bar"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div id="bubble"></div>
           </div>
         </div>
       </div>
+    <div class="w3-display-left w3-row-padding">
+      <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DWUQuMV5yVzhv" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+      </div>
 
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
+  </header>
 
+
+
+
+      <!-- End page content -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-center w3-opacity w3-margin-bottom">
+      <h5>You Won't Find Us On Any of These</h5>
+      <div class="w3-xlarge w3-padding-16">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+      </div>
+      <p>
+        Powered by
+        <a
+          href="https://www.w3schools.com/w3css/default.asp"
+          target="_blank"
+          class="w3-hover-text-green"
+          >w3.css</a
+        >
+      </p>
+    </footer>
+  </body>
 </html>
