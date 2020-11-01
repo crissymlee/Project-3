@@ -92,7 +92,6 @@ function getPopularity(name) {
                 },
                 xaxis: {
                     tickmode: "auto",
-                    tickangle: "auto",
                     tickfont: {
                         size: 8.5
                     }
