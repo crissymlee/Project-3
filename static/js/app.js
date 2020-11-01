@@ -8,9 +8,9 @@ function retrieveInfo(name) {
         var result = metadata.filter(d => d.Artist === name)[0];
         var info = d3.select('#sample-metadata');
         info.html("");
-        info.append("h6").text("Artist: " + Object(result.Artist));
+        info.append("h6").attr("style","color: white").text("Artist: " + Object(result.Artist));
         Object.entries(result.Tracks).forEach((d,i) => {
-            info.append("h6").text((i+1) + ": "+ d[1] + "\n");
+            info.append("h6").attr("style","color: white").text((i+1) + ": "+ d[1] + "\n");
         });
     });   
 }
