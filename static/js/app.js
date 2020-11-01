@@ -54,7 +54,7 @@ function getPopularity(name) {
                 text: track_names,
                 type: "bar",
                 marker: {
-                    color: '#3CB371'
+                    color: '#43e'
                 }
             };
 
