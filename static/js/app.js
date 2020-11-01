@@ -1,6 +1,6 @@
 
 var sp = new SpotifyWebApi();
-sp.setAccessToken('BQA656Bdu0V1mt3aswYNI6gCrwcbw8i0zeIF1LVrSXT9Nk3kZmEIb190__92lQ2zTD5FJvRNdya_9fFVq18')
+sp.setAccessToken('BQAyuT6kXK7J-efHaGMAXWS48iyWGfr0O_VgLQ67WGZewvwCWyyNiA7pqcmBVwr9M_3NbR0QbnuDzmb6Kv8')
 
 function retrieveInfo(name) {
     d3.json("artist_test2.json").then((data) => {
@@ -89,21 +89,20 @@ function getEmbed(name) {
         var metadata = data[0].Metadata;
         var artist = metadata.filter(d => d.Artist === name)[0];
         var play_url = artist.Track_Play_URL[0];
-        console.log(play_url);
         embed
             .attr("src",play_url)
             .attr("width","300")
             .attr("height","100")
             .attr("frameborder","0")
             .attr("allowtransparency","true")
-            .attr("allow","encrypted-media");
+            .attr("allow","encrypted-media")
+            .attr("SameSite","Secure");
     });
     var embed2 = d3.select('#play_url2')
     d3.json("artist_test2.json").then((data) => {
         var metadata = data[0].Metadata;
         var artist = metadata.filter(d => d.Artist === name)[0];
         var play_url = artist.Track_Play_URL[1];
-        console.log(play_url);
         embed2
             .attr("src",play_url)
             .attr("width","300")
@@ -117,7 +116,6 @@ function getEmbed(name) {
         var metadata = data[0].Metadata;
         var artist = metadata.filter(d => d.Artist === name)[0];
         var play_url = artist.Track_Play_URL[2];
-        console.log(play_url);
         embed3
             .attr("src",play_url)
             .attr("width","300")
@@ -131,7 +129,6 @@ function getEmbed(name) {
         var metadata = data[0].Metadata;
         var artist = metadata.filter(d => d.Artist === name)[0];
         var play_url = artist.Track_Play_URL[3];
-        console.log(play_url);
         embed4
             .attr("src",play_url)
             .attr("width","300")
@@ -145,7 +142,6 @@ function getEmbed(name) {
         var metadata = data[0].Metadata;
         var artist = metadata.filter(d => d.Artist === name)[0];
         var play_url = artist.Track_Play_URL[4];
-        console.log(play_url);
         embed5
             .attr("src",play_url)
             .attr("width","300")

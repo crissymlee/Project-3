@@ -2,55 +2,77 @@
  External CSS Stylesheet
  */
 
-body {
-    padding: 100;
-    margin: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
-    line-height: 150%;
-    color: #333;
-    background: #efeee7;
-  }
-  
-  header {
-    background: #333;
-  }
+body{ 
+  padding: 100;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
+}
 
+header {
+  background: #333;
+}
 
-  
-  h1 {
-    padding: 100px 0;
-    margin: 0;
-    margin-bottom: 20px;
-    font-size: 30px;
-    color: #eee;
-    text-align: center;
-  }
-  
-  h2 {
-    font-size: 24px;
-  }
-  
-  a {
-    color: #d21034;
-  }
-  
-  /* Selecting elements by class */
-  .container {
-    width: 1024px;
-    margin: 0 auto;
-    padding: 200px;
-    font-size: large;
-  }
+h1 {
+  padding: 100px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #eee;
+  text-align: center;
+}
 
-  .button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+h2 {
+  font-size: 24px;
+}
+
+a {
+  color: #d21034;
+}
+
+/* Selecting elements by class */
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 200px;
+  font-size: large;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {height: 1500px; background-image: src="https://popularastronomy.technicacuriosa.com/wp-content/uploads/sites/4/2017/03/shutterstock_202732684-steam-to-stem.jpg" ;}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: "purple";
+  height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #6812cf ;
+  color: white;
+  padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
   }
-  
+  .row.content {height: auto;} 
+}
