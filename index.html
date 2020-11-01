@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 
@@ -15,6 +16,7 @@
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #020a72e5 ;">
       <a class="navbar-brand" style="color: rgb(160, 160, 160);" href="#"></a>
+        <p style="color: white;">Top 26 Artists on Spotify in 2019</p>
       <button class="navbar-toggler" type="button" target="__blank__" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -22,7 +24,7 @@
 
 <div class="container-fluid">
   <div class="row content">
-    <div class="col-sm-3 sidenav"style="background: radial-gradient(circle at 100%, #2b1ace, #4f16cf 50%, #6812cf 75%, #c405c4 50%);">
+    <div class="col-sm-3 well"style="background: radial-gradient(circle at 100%, #2b1ace, #4f16cf 50%, #6812cf 75%, #c405c4 50%);">
       <br>
       <h2 style="color: white; background: radial-gradient(farthest-corner at 40px 40px, #f35 0%, #43e 100%);">Play Top 50 Spotify Artists of 2019</h3>
       <br>  
@@ -51,13 +53,14 @@
             <div id="sample-metadata" class="panel-body"></div>
           </div>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-10">
           <div id="bar"></div>
         </div>
       </div>
+      <br>
       <div class="row">
-        <div class="col-md-12">
-          <div id="bubble"></div>
+        <div class="col-md-10">
+          <div id="radar"></div>
         </div>
       </div>
     </div>
