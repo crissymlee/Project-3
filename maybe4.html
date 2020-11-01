@@ -1,43 +1,55 @@
-<head><title>Explore Music</title>
-  <meta charset="UTF-8">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
-
-
-<style>
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px; background-image: src="https://popularastronomy.technicacuriosa.com/wp-content/uploads/sites/4/2017/03/shutterstock_202732684-steam-to-stem.jpg" ;}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: purple;" 
+      height: 100%;
     }
-    .myLink {
-      display: none;
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #6812cf ;
+      color: white;
+      padding: 15px;
     }
-
-    .header-img {
-      height: 800px;
-      width: 100%;
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
     }
   </style>
+</head>
+    
 
 
 <!-- Navigation Bar with a dropdown -->
   <body>
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #020a72e5 ;">
-      <a class="navbar-brand" style="color: rgb(160, 160, 160);" href="#">🎶Music Popularity</a>
+      <a class="navbar-brand" style="color: rgb(160, 160, 160);" href="#">Music Popularity</a>
       <button class="navbar-toggler" type="button" target="__blank__" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -69,74 +81,67 @@
     </nav>
 
 
-    <header class="header">
-      <img src="https://popularastronomy.technicacuriosa.com/wp-content/uploads/sites/4/2017/03/shutterstock_202732684-steam-to-stem.jpg" alt="music note">
-    <div class="artist">
-      <div class="icon-bar">
-        <button class="icon-bar" onclick="openLink(event, 'Flight');">
-          <i class="w3-margin-right"></i>Top 25 Artists
-        </button>
-      </div>
-
-      <!-- Tabs -->
-        <div class="row">
-          <div class="col-md-8">
-            <div class="well" style="background: radial-gradient(farthest-corner at 40px 40px, #f35 0%, #43e 100%);">
-              <h5>Artist:</h5>
-              <select id="selDataset" onchange="optionChanged(this.value)"></select>
-            </div>
-            <div class="well" style="background: radial-gradient(farthest-corner at 40px 40px, #43e 0%, #f35 100%);;">
-              <h5 style="font: bold;">Song:</h5>
-              <select id="selDataset2" onchange="optionChanged2(this.value)"></select>
-            </div>
-            <div class="panel panel-primary" style="background: radial-gradient(circle at 100%, #2b1ace, #4f16cf 50%, #6812cf 75%, #c405c4 50%);;">
-              <div class="panel-heading">
-                <h3 class="panel-title">Top Five Songs For Selected Artist</h3>
-              </div>
-              <div id="sample-metadata" class="panel-body"></div>
-            </div>
-          </div>
-          <div class="col-md-5">
-            <div id="map"></div>
-          </div>
-          <div class="col-md-5">
-            <div id="bar"></div>
-          </div>
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h3>Play Top 50 Spotify Artists of 2019</h3>
+      <hr>
+      <div class="w3-display-left w3-row-padding">
+        <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DWUQuMV5yVzhv" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+  
         </div>
-        <div class="row">
-          <div class="col-md-12">
-            <div id="bubble"></div>
-          </div>
-        </div>
-      </div>
-    <div class="w3-display-left w3-row-padding">
-      <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DWUQuMV5yVzhv" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-
-      </div>
-
-
-  </header>
-
-  <i class=""></i>
-
-
-      <!-- End page content -->
     </div>
 
-    <!-- Footer -->
-    <footer class="w3-container w3-center w3-opacity w3-margin-bottom">
-      <h5>You Won't Find Us On Any of These</h5>
-      <div class="w3-xlarge w3-padding-16">
-        <i class="fa fa-facebook-official w3-hover-opacity"></i>
-        <i class="fa fa-instagram w3-hover-opacity"></i>
-        <i class="fa fa-snapchat w3-hover-opacity"></i>
-        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-        <i class="fa fa-twitter w3-hover-opacity"></i>
-        <i class="fa fa-linkedin w3-hover-opacity"></i>
+
+    <div class="col-sm-9" >
+      
+      <h2>Choose An Artist and a Song Below!</h2>
+      <hr>
+ 
+      <!-- Tabs -->
+      <div class="row">
+        <div class="col-md-8">
+          <div class="well" style="background: radial-gradient(farthest-corner at 40px 40px, #f35 0%, #43e 100%);">
+            <h5>Artist:</h5>
+            <select id="selDataset" onchange="optionChanged(this.value)"></select>
+          </div>
+          <div class="well" style="background: radial-gradient(farthest-corner at 40px 40px, #43e 0%, #f35 100%);;">
+            <h5 style="font: bold;">Song:</h5>
+            <select id="selDataset2" onchange="optionChanged2(this.value)"></select>
+          </div>
+          <div class="panel panel-primary" style="background: radial-gradient(circle at 100%, #2b1ace, #4f16cf 50%, #6812cf 75%, #c405c4 50%);;">
+            <div class="panel-heading">
+              <h3 class="panel-title">Top Five Songs For Selected Artist</h3>
+            </div>
+            <div id="sample-metadata" class="panel-body"></div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div id="map"></div>
+        </div>
+        <div class="col-md-5">
+          <div id="bar"></div>
+        </div>
       </div>
-      <p>
-        Powered by Group 2
-      </p>
-    </footer>
-  </body>
+      <div class="row">
+        <div class="col-md-12">
+          <div id="bubble"></div>
+        </div>
+      </div>
+    </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid">
+  <p>Footer Text</p>
+</footer>
+
+</body>
 </html>
