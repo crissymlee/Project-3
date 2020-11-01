@@ -1,6 +1,6 @@
 
 var sp = new SpotifyWebApi();
-sp.setAccessToken('BQBK-HSwe7rVUPcc-Dz43QL6vjO8qJbNHSaHcQkRJ-5dlpBINpus2Km0FVZ1JXg1avb6PbAhtz-fuZWrXj4')
+sp.setAccessToken('BQA4eaq9q1Z3gBzNK9uIGuhYbb2EO_Cxk5mXGS3z8kJRZu3XUzF9TK9Zk4cGdowdGvc1lZnbzisO6x1TyuI')
 
 function retrieveInfo(name) {
     d3.json("artist_test2.json").then((data) => {
@@ -71,7 +71,7 @@ function getPopularity(name) {
             // building bar chart
 
             var trace = {
-                x: [1,2,3,4,5],
+                x: track_names,
                 y: tracksPop_list,
                 text: track_names,
                 type: "bar",
@@ -83,11 +83,26 @@ function getPopularity(name) {
             var data = [trace];
 
             var layout = {
-                title: "Popularity of Selected Artist's Top Five Songs",
+                title: `Popularity of Top Five Songs`,
                 yaxis: {
+                    range: [50,95],
                     tickmode:"linear",
-                    autorange: true
-            }
+                    tick0: 0,
+                    dtick: 5,
+                },
+                xaxis: {
+                    tickmode: "auto",
+                    tickangle: "auto",
+                    tickfont: {
+                        size: 8.5
+                    }
+                },
+                margin: {
+                //     l: 100,
+                //     r: 100,
+                //     t: 100,
+                    b: 150
+                 }
         };
         Plotly.newPlot("bar",data,layout);
         });
