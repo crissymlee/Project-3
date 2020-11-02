@@ -1,9 +1,9 @@
 
 var sp = new SpotifyWebApi();
-sp.setAccessToken('BQBn3IxLHb18rTS9LdLYIEP7Bque9KYlerPuJ1ixYR5xe2nTDp0_eo94itXezgphfojf1nC84gIusUH4HD0')
+sp.setAccessToken('BQAzFHMcwZN96uzZSY3Z_Rw2RayklfIQ53GEbndYXCZOGKBD17rEetfnRvJFPw9HoC8RY9GBghhgc_R1-ks')
 
 function retrieveInfo(name) {
-    d3.json("artist_test2.json").then((data) => {
+    d3.json("artist_data.json").then((data) => {
         var metadata = data[0].Metadata;
         var result = metadata.filter(d => d.Artist === name)[0];
         var info = d3.select('#sample-metadata');
@@ -16,7 +16,7 @@ function retrieveInfo(name) {
 }
 
 function getAudioFeatures(name) {
-    d3.json("artist_test2.json").then((data) => {
+    d3.json("artist_data.json").then((data) => {
         var metadata = data[0].Metadata;
         var artist = metadata.filter(d => d.Artist === name)[0];
         var artist_track_ids = artist.Track_ID;
@@ -115,7 +115,7 @@ function getAudioFeatures(name) {
 };
 
 function getPopularity(name) {
-    d3.json("artist_test2.json").then((data) => {
+    d3.json("artist_data.json").then((data) => {
         var metadata = data[0].Metadata;
         var artist = metadata.filter(d => d.Artist === name)[0];
         var artist_track_ids = artist.Track_ID;
@@ -173,7 +173,7 @@ function getPopularity(name) {
 
 function getEmbed(name) {
     var embed = d3.select('#play_url')
-    d3.json("artist_test2.json").then((data) => {
+    d3.json("artist_data.json").then((data) => {
         var metadata = data[0].Metadata;
         var artist = metadata.filter(d => d.Artist === name)[0];
         var play_url = artist.Track_Play_URL[0];
@@ -184,10 +184,9 @@ function getEmbed(name) {
             .attr("frameborder","0")
             .attr("allowtransparency","true")
             .attr("allow","encrypted-media")
-            .attr("SameSite","Secure");
     });
     var embed2 = d3.select('#play_url2')
-    d3.json("artist_test2.json").then((data) => {
+    d3.json("artist_data.json").then((data) => {
         var metadata = data[0].Metadata;
         var artist = metadata.filter(d => d.Artist === name)[0];
         var play_url = artist.Track_Play_URL[1];
@@ -200,7 +199,7 @@ function getEmbed(name) {
             .attr("allow","encrypted-media");
     });
     var embed3 = d3.select('#play_url3')
-    d3.json("artist_test2.json").then((data) => {
+    d3.json("artist_data.json").then((data) => {
         var metadata = data[0].Metadata;
         var artist = metadata.filter(d => d.Artist === name)[0];
         var play_url = artist.Track_Play_URL[2];
@@ -213,7 +212,7 @@ function getEmbed(name) {
             .attr("allow","encrypted-media");
     });
     var embed4 = d3.select('#play_url4')
-    d3.json("artist_test2.json").then((data) => {
+    d3.json("artist_data.json").then((data) => {
         var metadata = data[0].Metadata;
         var artist = metadata.filter(d => d.Artist === name)[0];
         var play_url = artist.Track_Play_URL[3];
@@ -226,7 +225,7 @@ function getEmbed(name) {
             .attr("allow","encrypted-media");
     });
     var embed5 = d3.select('#play_url5')
-    d3.json("artist_test2.json").then((data) => {
+    d3.json("artist_data.json").then((data) => {
         var metadata = data[0].Metadata;
         var artist = metadata.filter(d => d.Artist === name)[0];
         var play_url = artist.Track_Play_URL[4];
@@ -250,13 +249,13 @@ function optionChanged(name) {
 function init() {
     
     var dropDown = d3.select('#selDataset');
-    d3.json("artist_test2.json").then((data) => {
+    d3.json("artist_data.json").then((data) => {
         data[0].Artists.forEach(d => {
             dropDown.append("option").text(d).property("value");
         });
         retrieveInfo(data[0].Artists[0]);
-        getAudioFeatures(data[0].Artists[0]);
         getPopularity(data[0].Artists[0]);
+        getAudioFeatures(data[0].Artists[0]);
         getEmbed(data[0].Artists[0]);
     });
 };
