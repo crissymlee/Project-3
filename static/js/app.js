@@ -1,6 +1,6 @@
 
 var sp = new SpotifyWebApi();
-sp.setAccessToken('BQA656Bdu0V1mt3aswYNI6gCrwcbw8i0zeIF1LVrSXT9Nk3kZmEIb190__92lQ2zTD5FJvRNdya_9fFVq18')
+sp.setAccessToken('BQBn3IxLHb18rTS9LdLYIEP7Bque9KYlerPuJ1ixYR5xe2nTDp0_eo94itXezgphfojf1nC84gIusUH4HD0')
 
 function retrieveInfo(name) {
     d3.json("artist_test2.json").then((data) => {
@@ -20,13 +20,99 @@ function getAudioFeatures(name) {
         var metadata = data[0].Metadata;
         var artist = metadata.filter(d => d.Artist === name)[0];
         var artist_track_ids = artist.Track_ID;
-        sp.getAudioFeaturesForTracks(artist_track_ids).then(d => {
-            var results = JSON.stringify(d)
-            var test = JSON.parse(results);
-            var track1dan = test.audio_features[0].danceability;
-            });
-        });   
-    };
+            sp.getAudioFeaturesForTracks(artist_track_ids).then(d => {
+                var results = JSON.stringify(d)
+                var test = JSON.parse(results);
+                console.log(test);
+                var track1dan = test.audio_features[0].danceability;
+                var track2dan = test.audio_features[1].danceability;
+                var track3dan = test.audio_features[2].danceability;
+                var track4dan = test.audio_features[3].danceability;
+                var track5dan = test.audio_features[4].danceability;
+                var dance_list = [track1dan,track2dan,track3dan,track4dan,track5dan];
+                var track1a = test.audio_features[0].acousticness;
+                var track2a = test.audio_features[1].acousticness;
+                var track3a = test.audio_features[2].acousticness;
+                var track4a = test.audio_features[3].acousticness;
+                var track5a = test.audio_features[4].acousticness;
+                var track1e = test.audio_features[0].energy;
+                var track2e = test.audio_features[1].energy;
+                var track3e = test.audio_features[2].energy;
+                var track4e = test.audio_features[3].energy;
+                var track5e = test.audio_features[4].energy;
+                var track1i = test.audio_features[0].valence;
+                var track2i = test.audio_features[1].valence;
+                var track3i = test.audio_features[2].valence;
+                var track4i = test.audio_features[3].valence;
+                var track5i = test.audio_features[4].valence;
+                var track1l = test.audio_features[0].liveness;
+                var track2l = test.audio_features[1].liveness;
+                var track3l = test.audio_features[2].liveness;
+                var track4l = test.audio_features[3].liveness;
+                var track5l = test.audio_features[4].liveness;
+                var track1s = test.audio_features[0].speechiness;
+                var track2s = test.audio_features[1].speechiness;
+                var track3s = test.audio_features[2].speechiness;
+                var track4s = test.audio_features[3].speechiness;
+                var track5s = test.audio_features[4].speechiness;
+                sp.getTracks(artist_track_ids).then(d => {
+                    var results1 = JSON.stringify(d)
+                    var test1 = JSON.parse(results1);
+                    track_names = [test1.tracks[0].name,
+                                test1.tracks[1].name,
+                                test1.tracks[2].name,
+                                test1.tracks[3].name,
+                                test1.tracks[4].name];});
+
+    data = [
+    {
+    type: 'scatterpolar',
+    r: [track1dan, track1a, track1e, track1i, track1l, track1s, track1dan],
+    theta: ['Danceability','Acousticness','Energy', 'Valence', 'Liveness', 'Speechiness', 'Danceability'],
+    fill: 'toself',
+    name: track_names[0]
+    },
+    {
+    type: 'scatterpolar',
+    r: [track2dan, track2a, track2e, track2i,, track2l, track2s, track2dan],
+    theta: ['Danceability','Acousticness','Energy', 'Valence', 'Liveness', 'Speechiness', 'Danceability'],
+    fill: 'toself',
+    name: track_names[1]
+    },
+    {
+    type: 'scatterpolar',
+    r: [track3dan, track3a, track3e, track3i, track3l, track3s, track3dan],
+    theta: ['Danceability','Acousticness','Energy', 'Valence', 'Liveness', 'Speechiness', 'Danceability'],
+    fill: 'toself',
+    name: track_names[2]
+    },
+    {
+    type: 'scatterpolar',
+    r: [track4dan, track4a, track4e, track4i, track4l, track4s, track4dan],
+    theta: ['Danceability','Acousticness','Energy', 'Valence', 'Liveness', 'Speechiness', 'Danceability'],
+    fill: 'toself',
+    name: track_names[3]
+    },
+    {
+    type: 'scatterpolar',
+    r: [track5dan, track5a, track5e, track5i, track5l, track5s, track5dan],
+    theta: ['Danceability','Acousticness','Energy', 'Valence', 'Liveness', 'Speechiness', 'Danceability'],
+    fill: 'toself',
+    name: track_names[4]
+    }
+  ]
+    layout = {
+      polar: {
+        radialaxis: {
+          visible: true,
+          range: [0, 1]
+        }
+      }
+    }
+    Plotly.newPlot("radar", data, layout)
+})
+    })
+};
 
 function getPopularity(name) {
     d3.json("artist_test2.json").then((data) => {
@@ -36,6 +122,7 @@ function getPopularity(name) {
         sp.getTracks(artist_track_ids).then(d => {
             var results = JSON.stringify(d)
             var test = JSON.parse(results);
+            console.log(test);
             tracksPop_list = [test.tracks[0].popularity,
                               test.tracks[1].popularity,
                               test.tracks[2].popularity,
@@ -72,10 +159,11 @@ function getPopularity(name) {
                     tickmode: "auto",
                     tickfont: {
                         size: 8.5
-                    }
+                    },
+                    tickangle: 45
                 },
                 margin: {
-                    b: 150
+                    b: 200
                  }
         };
         Plotly.newPlot("bar",data,layout);
@@ -89,25 +177,24 @@ function getEmbed(name) {
         var metadata = data[0].Metadata;
         var artist = metadata.filter(d => d.Artist === name)[0];
         var play_url = artist.Track_Play_URL[0];
-        console.log(play_url);
         embed
             .attr("src",play_url)
             .attr("width","300")
-            .attr("height","100")
+            .attr("height","80")
             .attr("frameborder","0")
             .attr("allowtransparency","true")
-            .attr("allow","encrypted-media");
+            .attr("allow","encrypted-media")
+            .attr("SameSite","Secure");
     });
     var embed2 = d3.select('#play_url2')
     d3.json("artist_test2.json").then((data) => {
         var metadata = data[0].Metadata;
         var artist = metadata.filter(d => d.Artist === name)[0];
         var play_url = artist.Track_Play_URL[1];
-        console.log(play_url);
         embed2
             .attr("src",play_url)
             .attr("width","300")
-            .attr("height","100")
+            .attr("height","80")
             .attr("frameborder","0")
             .attr("allowtransparency","true")
             .attr("allow","encrypted-media");
@@ -117,11 +204,10 @@ function getEmbed(name) {
         var metadata = data[0].Metadata;
         var artist = metadata.filter(d => d.Artist === name)[0];
         var play_url = artist.Track_Play_URL[2];
-        console.log(play_url);
         embed3
             .attr("src",play_url)
             .attr("width","300")
-            .attr("height","100")
+            .attr("height","80")
             .attr("frameborder","0")
             .attr("allowtransparency","true")
             .attr("allow","encrypted-media");
@@ -131,11 +217,10 @@ function getEmbed(name) {
         var metadata = data[0].Metadata;
         var artist = metadata.filter(d => d.Artist === name)[0];
         var play_url = artist.Track_Play_URL[3];
-        console.log(play_url);
         embed4
             .attr("src",play_url)
             .attr("width","300")
-            .attr("height","100")
+            .attr("height","80")
             .attr("frameborder","0")
             .attr("allowtransparency","true")
             .attr("allow","encrypted-media");
@@ -145,11 +230,10 @@ function getEmbed(name) {
         var metadata = data[0].Metadata;
         var artist = metadata.filter(d => d.Artist === name)[0];
         var play_url = artist.Track_Play_URL[4];
-        console.log(play_url);
         embed5
             .attr("src",play_url)
             .attr("width","300")
-            .attr("height","100")
+            .attr("height","80")
             .attr("frameborder","0")
             .attr("allowtransparency","true")
             .attr("allow","encrypted-media");
