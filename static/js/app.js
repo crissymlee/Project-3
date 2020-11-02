@@ -8,9 +8,9 @@ function retrieveInfo(name) {
         var result = metadata.filter(d => d.Artist === name)[0];
         var info = d3.select('#sample-metadata');
         info.html("");
-        info.append("h6").attr("style","color: white").text("Artist: " + Object(result.Artist));
+        info.append("h4").attr("style","color: white; text-align: center").text("Artist: " + Object(result.Artist));
         Object.entries(result.Tracks).forEach((d,i) => {
-            info.append("h6").attr("style","color: white").text((i+1) + ": "+ d[1] + "\n");
+            info.append("h4").attr("style","color: white; text-align: center").text((i+1) + ": "+ d[1] + "\n");
         });
     });   
 }
@@ -184,6 +184,7 @@ function getEmbed(name) {
             .attr("frameborder","0")
             .attr("allowtransparency","true")
             .attr("allow","encrypted-media")
+            .attr("class","container-fluid");
     });
     var embed2 = d3.select('#play_url2')
     d3.json("artist_data.json").then((data) => {
@@ -196,7 +197,8 @@ function getEmbed(name) {
             .attr("height","80")
             .attr("frameborder","0")
             .attr("allowtransparency","true")
-            .attr("allow","encrypted-media");
+            .attr("allow","encrypted-media")
+            .attr("class","container-fluid");
     });
     var embed3 = d3.select('#play_url3')
     d3.json("artist_data.json").then((data) => {
@@ -209,7 +211,8 @@ function getEmbed(name) {
             .attr("height","80")
             .attr("frameborder","0")
             .attr("allowtransparency","true")
-            .attr("allow","encrypted-media");
+            .attr("allow","encrypted-media")
+            .attr("class","container-fluid");
     });
     var embed4 = d3.select('#play_url4')
     d3.json("artist_data.json").then((data) => {
@@ -222,7 +225,8 @@ function getEmbed(name) {
             .attr("height","80")
             .attr("frameborder","0")
             .attr("allowtransparency","true")
-            .attr("allow","encrypted-media");
+            .attr("allow","encrypted-media")
+            .attr("class","container-fluid");
     });
     var embed5 = d3.select('#play_url5')
     d3.json("artist_data.json").then((data) => {
@@ -235,7 +239,8 @@ function getEmbed(name) {
             .attr("height","80")
             .attr("frameborder","0")
             .attr("allowtransparency","true")
-            .attr("allow","encrypted-media");
+            .attr("allow","encrypted-media")
+            .attr("class","container-fluid");
     });
 }
 

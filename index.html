@@ -16,20 +16,22 @@
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #020a72e5 ;">
       <a class="navbar-brand" style="color: rgb(160, 160, 160);" href="#"></a>
-        <p style="color: white;">Top 26 Artists on Spotify in 2019</p>
+        <p style="color: white;">Top 50 Artists on Spotify in 2019</p>
       <button class="navbar-toggler" type="button" target="__blank__" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     </nav>
 
 <div class="container-fluid">
+
   <div class="row content">
     <div class="col-sm-3 well"style="background: radial-gradient(circle at 100%, #2b1ace, #4f16cf 50%, #6812cf 75%, #c405c4 50%);">
-      <br>
-      <h2 style="color: white; background: radial-gradient(farthest-corner at 40px 40px, #f35 0%, #43e 100%);">Play Top 50 Spotify Artists of 2019</h3>
-      <br>  
+      <div class="well" style="background: radial-gradient(farthest-corner at 40px 40px, #f35 0%, #43e 100%);">
+        <h5 style="color: white;">Select Your Artist!:</h5>
+        <select id="selDataset" onchange="optionChanged(this.value)"></select>
+      </div>
+      <h3 class= "well" style="border:white,3px;color: white; background: radial-gradient(farthest-corner at 40px 40px, #f35 0%, #43e 100%);">Listen To Your Artist's Top Five Songs!</h3> 
       <hr>
-      <div class="w3-display-left w3-row-padding"></div>
       <iframe id="play_url"></iframe>
       <iframe id="play_url2"></iframe>
       <iframe id="play_url3"></iframe>
@@ -38,17 +40,11 @@
     </div>
 <!-- This Section Is Used to Select Your Desired Artist, and Populate All Embeds & Graphs-->
     <div class="col-sm-9" >      
-      <h2>Choose An Artist Below!</h2>
-      <hr>
       <div class="row">
-        <div class="col-md-8">
-          <div class="well" style="background: radial-gradient(farthest-corner at 40px 40px, #f35 0%, #43e 100%);">
-            <h5 style="color: white;">Artist:</h5>
-            <select id="selDataset" onchange="optionChanged(this.value)"></select>
-          </div>
+        <div class="col-md-10">
           <div class="panel panel-primary" style="background: radial-gradient(circle at 100%, #2b1ace, #4f16cf 50%, #6812cf 75%, #c405c4 50%);;">
             <div class="panel-heading"style="background: radial-gradient(farthest-corner at 40px 40px, #f35 0%, #43e 100%);">
-              <h3 class="panel-title">Top Five Songs For Selected Artist</h3>
+              <h3 class="panel-title" style="text-align: center;">Top Five Songs For Selected Artist</h3>
             </div>
             <div id="sample-metadata" class="panel-body"></div>
           </div>
