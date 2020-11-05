@@ -21,16 +21,15 @@ function getAudioFeatures(name) {
         var metadata = data[0].Metadata;
         var artist = metadata.filter(d => d.Artist === name)[0];
         var artist_track_ids = artist.Track_ID;
+        var track_names1 = artist.Tracks;
             sp.getAudioFeaturesForTracks(artist_track_ids).then(d => {
                 var results = JSON.stringify(d)
                 var test = JSON.parse(results);
-                console.log(test);
                 var track1dan = test.audio_features[0].danceability;
                 var track2dan = test.audio_features[1].danceability;
                 var track3dan = test.audio_features[2].danceability;
                 var track4dan = test.audio_features[3].danceability;
                 var track5dan = test.audio_features[4].danceability;
-                var dance_list = [track1dan,track2dan,track3dan,track4dan,track5dan];
                 var track1a = test.audio_features[0].acousticness;
                 var track2a = test.audio_features[1].acousticness;
                 var track3a = test.audio_features[2].acousticness;
@@ -56,51 +55,42 @@ function getAudioFeatures(name) {
                 var track3s = test.audio_features[2].speechiness;
                 var track4s = test.audio_features[3].speechiness;
                 var track5s = test.audio_features[4].speechiness;
-                sp.getTracks(artist_track_ids).then(d => {
-                    var results1 = JSON.stringify(d)
-                    var test1 = JSON.parse(results1);
-                    var track_names = [test1.tracks[0].name,
-                                test1.tracks[1].name,
-                                test1.tracks[2].name,
-                                test1.tracks[3].name,
-                                test1.tracks[4].name];
-                            console.log(track_names)});
-
+            
     data = [
     {
     type: 'scatterpolar',
     r: [track1dan, track1a, track1e, track1i, track1l, track1s, track1dan],
     theta: ['Danceability','Acousticness','Energy', 'Valence', 'Liveness', 'Speechiness', 'Danceability'],
     fill: 'toself',
-    name: track_names[0]
+    name: track_names1[0]
     },
     {
     type: 'scatterpolar',
     r: [track2dan, track2a, track2e, track2i,, track2l, track2s, track2dan],
     theta: ['Danceability','Acousticness','Energy', 'Valence', 'Liveness', 'Speechiness', 'Danceability'],
     fill: 'toself',
-    name: track_names[1]
+    name: track_names1[1]
     },
     {
     type: 'scatterpolar',
     r: [track3dan, track3a, track3e, track3i, track3l, track3s, track3dan],
     theta: ['Danceability','Acousticness','Energy', 'Valence', 'Liveness', 'Speechiness', 'Danceability'],
     fill: 'toself',
-    name: track_names[2]
+    name: track_names1[2]
     },
     {
     type: 'scatterpolar',
     r: [track4dan, track4a, track4e, track4i, track4l, track4s, track4dan],
     theta: ['Danceability','Acousticness','Energy', 'Valence', 'Liveness', 'Speechiness', 'Danceability'],
     fill: 'toself',
-    name: track_names[3]
+    name: track_names1[3]
     },
     {
     type: 'scatterpolar',
     r: [track5dan, track5a, track5e, track5i, track5l, track5s, track5dan],
     theta: ['Danceability','Acousticness','Energy', 'Valence', 'Liveness', 'Speechiness', 'Danceability'],
     fill: 'toself',
-    name: track_names[4]
+    name: track_names1[4]
     }
   ]
     layout = {
@@ -124,7 +114,6 @@ function getPopularity(name) {
         sp.getTracks(artist_track_ids).then(d => {
             var results = JSON.stringify(d)
             var test = JSON.parse(results);
-            console.log(test);
             tracksPop_list = [test.tracks[0].popularity,
                               test.tracks[1].popularity,
                               test.tracks[2].popularity,
