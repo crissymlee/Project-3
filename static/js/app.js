@@ -1,6 +1,6 @@
 
 var sp = new SpotifyWebApi();
-sp.setAccessToken('BQBKriB5cm0S6dHd7-pVmM16GaY60wAH2oXyBaknuEQnVexDCKMbVyhtjQIl_b6CDrp37_xaq4_tJP3XeKw')
+sp.setAccessToken('BQD6Fd2kbXfUMkHi7_JSUYxXpyjdvmBkrp9t9r6E_IGxMo7_4dcKgSKonSL9Ouf-_GDacmK5r6dE355FSlk')
 
 function retrieveInfo(name) {
     d3.json("artist_data.json").then((data) => {
@@ -59,11 +59,12 @@ function getAudioFeatures(name) {
                 sp.getTracks(artist_track_ids).then(d => {
                     var results1 = JSON.stringify(d)
                     var test1 = JSON.parse(results1);
-                    track_names = [test1.tracks[0].name,
+                    var track_names = [test1.tracks[0].name,
                                 test1.tracks[1].name,
                                 test1.tracks[2].name,
                                 test1.tracks[3].name,
-                                test1.tracks[4].name];});
+                                test1.tracks[4].name];
+                            console.log(track_names)});
 
     data = [
     {
