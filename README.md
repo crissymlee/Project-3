@@ -15,6 +15,6 @@ For our project, we are going to leverage the Spotify Web API to collect data on
 Tab: 1 Page Document
 https://docs.google.com/spreadsheets/d/1PfAhGpc2sz_kecxRL1-wu6obWk0TrBAg4RXHd6FlnI4/edit?usp=sharing
 
-##Presentation Script
+## Presentation Script
 Our presentation script can be found here:
 https://docs.google.com/document/d/1m_zEf6xjClPB9hlz3xx43UUtq4KKLGujSl99f3Ufk4M/edit?usp=sharing
