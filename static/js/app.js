@@ -1,6 +1,9 @@
 
 var sp = new SpotifyWebApi();
-sp.setAccessToken('BQD6Fd2kbXfUMkHi7_JSUYxXpyjdvmBkrp9t9r6E_IGxMo7_4dcKgSKonSL9Ouf-_GDacmK5r6dE355FSlk')
+
+// paste access token from spotify_data_extraction.ipynb within the setAccessToken method below
+
+sp.setAccessToken('BQC4zj6A8y6RMK_UDZAxO7b6lhywDBPSgisQmygGw9a5OiwPjvhg12V6V04iJ1Bu_d_Aqoc1b47HnujU5dU')
 
 function retrieveInfo(name) {
     d3.json("artist_data.json").then((data) => {
